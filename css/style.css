@@ -1,0 +1,275 @@
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('OpenDyslexic\OpenDyslexic-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('OpenDyslexic\OpenDyslexic-Italic.otf');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('OpenDyslexic\OpenDyslexic-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url('OpenDyslexic\OpenDyslexicAlta-BoldItalic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  font-family: opendyslexic !important; margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  line-height: 200%;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 200rem;
+  background-color: #e3dada;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  z-index: 10;
+  background: #e3dada;
+}
+
+header .logo {
+  position: relative;
+  font-size: 3rem;
+  color: #000;
+  text-decoration: none;
+}
+
+header .logo:hover {
+  color: #dd0c36;
+}
+
+header .search {
+  position: relative;
+  width: 300px;
+  height: 40px;
+}
+
+header .search input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background: transparent;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0 10px 0 45px;
+}
+
+header .search input::placeholder {
+  color: #000;
+}
+
+header .search .fa-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #000;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+header .search .fa-search:hover {
+  color: #dd0c36;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #1a3b83;
+  color: #fff;
+  padding: .8rem 3rem;
+  border: .2rem solid #1a3b83;
+  border-radius: 5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: #9d5e6b31;
+  color: #1a3b83;
+}
+
+.home {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content h1 {
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+}
+
+.home .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.70);
+  background-color: #102a63;
+}
+
+.hotel .box-container .box {
+  display: flex;
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  box-shadow: 0 .2rem .1rem .4rem rgba(0, 0, 0, .1);
+  margin-top: 5rem;
+}
+
+.hotel .box-container .box .image {
+  width: 30%;
+  object-fit: cover;
+  margin-top: 3rem;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+
+.hotel .box-container .box .content {
+  padding: 2rem;
+}
+
+.hotel .box-container .box .content .title {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.hotel .box-container .box .content .title a {
+  color: #000;
+}
+
+.hotel .box-container .box .content .title a:hover {
+  text-decoration-line: underline;
+}
+
+.hotel .box-container .box .content p {
+  font-size: 1.7rem;
+  text-align: justify;
+  color: rgb(26, 21, 21);
+  padding: 1rem 0;
+  line-height: 2.2rem;
+}
+
+.hotel .box-container .box .content .stars i {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1a3b83;
+}
+
+.hotel .box-container .box .content .price,
+.hotel .box-container .box .content .review {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #000;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+
+@media (max-width:1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  .hotel .box-container .box {
+    display: block;
+  }
+
+  .hotel .box-container .box .image {
+    height: 20rem;
+    width: 100%;
+  }
+}
+
+@media (max-width:991px) {
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+
+  header .logo {
+    padding-bottom: 20px;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width:600) {
+  header .search {
+    width: 100%;
+  }
+}
+
+@media (max-width:450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading span {
+    font-size: 2.5rem;
+  }
+
+  .hotel .box-container .box {
+    display: block;
+  }
+}
