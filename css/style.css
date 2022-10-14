@@ -1,33 +1,8 @@
-@font-face {
-  font-family: 'opendyslexic';
-  src: url('OpenDyslexic\OpenDyslexic-Regular.otf');
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'opendyslexic';
-  src: url('OpenDyslexic\OpenDyslexic-Italic.otf');
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'opendyslexic';
-  src: url('OpenDyslexic\OpenDyslexic-Bold.otf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'opendyslexic';
-  src: url('OpenDyslexic\OpenDyslexicAlta-BoldItalic.otf');
-  font-weight: bold;
-  font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
 
 * {
-  font-family: opendyslexic !important; margin: 0;
+  font-family: 'Lato', sans-serif; 
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
