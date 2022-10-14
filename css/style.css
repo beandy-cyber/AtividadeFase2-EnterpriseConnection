@@ -127,7 +127,6 @@ section {
   font-size: 4.5rem;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
 }
 
 .home .image-container img {
@@ -146,7 +145,7 @@ section {
   display: flex;
   flex: 1 1 30rem;
   border-radius: .5rem;
-  box-shadow: 0 .2rem .1rem .4rem rgba(0, 0, 0, .1);
+  box-shadow: 0 .1rem .5rem .1rem rgba(0, 0, 0, .1);
   margin-top: 5rem;
 }
 
