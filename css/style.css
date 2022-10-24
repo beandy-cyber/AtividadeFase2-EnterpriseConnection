@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@font-face {
+  font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'opendyslexic';
+	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
 
 * {
-  font-family: 'Lato', sans-serif; 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +33,7 @@ html {
 body {
   height: 200rem;
   background-color: #e3dada;
+  font-family: opendyslexic !important;
 }
 
 header {
