@@ -126,6 +126,7 @@ section {
   font-size: 4.5rem;
   color: #fff;
   text-transform: uppercase;
+  margin-top: 8rem;
 }
 
 .home .image-container img {
@@ -214,6 +215,10 @@ section {
 
   section {
     padding: 2rem;
+  }
+
+  .home .content h1 {
+    margin-top: 14rem;
   }
 }
 
