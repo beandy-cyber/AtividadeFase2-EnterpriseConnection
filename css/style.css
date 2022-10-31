@@ -173,6 +173,10 @@ section {
   cursor: pointer;
 }
 
+.hotel .box-container .box .image:hover {
+  filter: brightness(0.80);
+}
+
 .hotel .box-container .box .content {
   padding: 2rem;
 }
@@ -199,7 +203,7 @@ section {
 
 .hotel .box-container .box .content .review {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 400;
   color: #000;
 }
 
