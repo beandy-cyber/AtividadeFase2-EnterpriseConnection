@@ -24,10 +24,13 @@ Já a segunda parte atividade, desenvolvendo a área hotel escolhido, não houve
 <br><br>A API escolhida foi a API<b> Maps Embed API</b> do Google Maps. Anteriormente a atividade, era usada a Maps Static API, porém optei por deixar essa opção de mapa mais dinâmica - interativa - sendo um Plus na atividade. <br>Essa API exibe o mapa utilizando a tag <b>iframe</b> com um <b>src</b> dentro, no HTML5. Uma das referências de pesquisa foi a <a href="https://developers.google.com/maps/documentation/embed/get-started?hl=pt-br" target="_blank">documentação</a> do próprio Google.<br>
 O mapa também exibe os dados do hotel utilizado para a atividade , um botão de "zoom in" e outro de "zoom out" e tem a opção de mostrar o mapa com a imagem de satélite.
 <br><br>
+
+![image](https://user-images.githubusercontent.com/81839782/230513255-57cd419b-a6a7-46ab-9fb7-24b0565d665d.png)
+
+<br><br>
 Também foi usada a API do <a href="https://developers.google.com/fonts/docs/developer_api?hl=pt-br">Google Fonts</a>, que permite que o Google Fonts seja consultado pelos apps para que utilizem fontes e suas famílias (bold, italic, regular, black, thin) disponíveis. As fontes usadas com o auxílio desta API foram a <a href="https://fonts.google.com/specimen/Lato?query=lato">Lato</a> e <a href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">Open Sans</a>.
 <br>
-<br>
 
-![image](https://user-images.githubusercontent.com/81839782/230513028-eec912fe-ed47-4409-8b83-2128b97ae948.png)
+![image](https://user-images.githubusercontent.com/81839782/230513315-31237a3e-ac7d-421d-832b-36fb03e16f4a.png)
 
 <br>
