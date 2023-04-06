@@ -19,12 +19,14 @@ Para a elaboração da atividade, foquei em hoteís famosos na cidades de São P
 
 ![image](https://user-images.githubusercontent.com/81839782/229693424-6eebb5f7-b019-49da-af29-ec7dae659838.png)
 
+<h2>Aplicação em Cloud Computing</h2>
 Já a segunda parte atividade, desenvolvendo a área hotel escolhido, não houve desenvolvimento aprofundado das funcionalidades próprias para PCDs, já que foi mais focado na inserção da API. A proposta desta área é trazer informações mais detalhadas do hotel em questão, havendo um resumo mais completo, algumas informações extras e um mapa junto de infos de contato do hotel.
-<br><br>A API escolhida foi a <b>API Maps Embed API</b> do Google Maps. Anteriormente a atividade, era usada a Maps Static API, porém optei por deixar essa opção de mapa mais dinâmica - interativa - sendo um Plus na atividade.
+<br><br>A API escolhida foi a API<b> Maps Embed API</b> do Google Maps. Anteriormente a atividade, era usada a Maps Static API, porém optei por deixar essa opção de mapa mais dinâmica - interativa - sendo um Plus na atividade. <br>Essa API exibe o mapa utilizando a tag <b>iframe</b> com um <b>src</b> dentro, no HTML5. Uma das referências de pesquisa foi a <a href="https://developers.google.com/maps/documentation/embed/get-started?hl=pt-br" target="_blank">documentação</a> do próprio Google.<br>
+O mapa também exibe os dados do hotel utilizado para a atividade e e um botão de "zoom in" e outro de "zoom out".
+<br><br>
 Também foi usada a API do Google Fonts para inserir as fontes "Lato" e "Open Sans".
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/81839782/229688257-ae21c5dd-2002-40be-9432-ab7edbcb620a.png)
-<br>
-<br>
 
+<br>
