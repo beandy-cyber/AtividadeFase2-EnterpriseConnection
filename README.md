@@ -1,5 +1,5 @@
 # Área de hospedagem do Projeto Traveller
-O <a href="https://beandy-cyber.github.io/Responsividade/" target="_blank">link</a> para o site
+O <a href="https://beandy-cyber.github.io/AtividadeFase2-EnterpriseConnection/" target="_blank">link</a> para o site
 <br>
 <br>
 Esse repositório cotempla as propostas de três atividades do curso de graduação em Sistemas para Internet da FIAP ON:
