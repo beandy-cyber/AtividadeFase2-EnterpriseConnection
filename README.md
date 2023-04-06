@@ -27,9 +27,9 @@ O mapa também exibe os dados do hotel utilizado para a atividade , um botão de
 
 ![image](https://user-images.githubusercontent.com/81839782/230513255-57cd419b-a6a7-46ab-9fb7-24b0565d665d.png)
 
-<br><br>
-Também foi usada a API do <a href="https://developers.google.com/fonts/docs/developer_api?hl=pt-br">Google Fonts</a>, que permite que o Google Fonts seja consultado pelos apps para que utilizem fontes e suas famílias (bold, italic, regular, black, thin) disponíveis. As fontes usadas com o auxílio desta API foram a <a href="https://fonts.google.com/specimen/Lato?query=lato">Lato</a> e <a href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">Open Sans</a>.
 <br>
+Também foi usada a API do <a href="https://developers.google.com/fonts/docs/developer_api?hl=pt-br">Google Fonts</a>, que permite que o Google Fonts seja consultado pelos apps para que utilizem fontes e suas famílias (bold, italic, regular, black, thin) disponíveis. As fontes usadas com o auxílio desta API foram a <a href="https://fonts.google.com/specimen/Lato?query=lato">Lato</a> e <a href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">Open Sans</a>. É possível ver as diferenças entre as fontes na imagem abaixo do texto descritivo do hotel:
+<br><br>
 
 ![image](https://user-images.githubusercontent.com/81839782/230513315-31237a3e-ac7d-421d-832b-36fb03e16f4a.png)
 
