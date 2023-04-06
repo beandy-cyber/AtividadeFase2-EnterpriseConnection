@@ -28,6 +28,6 @@ Também foi usada a API do <a href="https://developers.google.com/fonts/docs/dev
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/81839782/229688257-ae21c5dd-2002-40be-9432-ab7edbcb620a.png)
+![image](https://user-images.githubusercontent.com/81839782/230513028-eec912fe-ed47-4409-8b83-2128b97ae948.png)
 
 <br>
